@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@source "../frontend/**/*.{ts,tsx}";
+@source "../backend/**/*.{ts,tsx}";
+
+.font-title {
+    font-family: 'Jacquard 24';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +17,7 @@ body {
     user-select: none;
     background-color: #0a0a0a;
     color: #00ff00;
-    font-family: 'Jersey 10', monospace;
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
+    font-family: 'Iosevka', monospace;
     overflow: hidden;
 }
 
